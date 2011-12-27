@@ -1,0 +1,47 @@
+//
+// Prefix header for all source files of the 'bookcamp' target in the 'bookcamp' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+  #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+#import "ScreenCapture.h"
+#import "Factory.h"
+
+  #import "Three20/Three20.h"
+#import "Three20UI/UIViewAdditions.h"
+#import <Three20Network/Three20Network.h>
+#import <extThree20JSON/extThree20JSON.h>
+
+
+#import "Contants.h"
+#import "Config.h"
+#import "ServerConfig.h"
+
+#import "OAuthEngine.h"
+#import "WeiboClient.h"
+#import "OAuthController.h"
+#import "Draft.h"
+
+#import "BookObject.h"
+#import "ModelLocator.h"
+#import "TouchXML.h"
+#import "BCSegment.h"
+#import "Locale.h"
+#import "ZBarSDK.h"
+#import "Module.h"
+#import "BKLink.h"
+
+#import "Cell.h"
+
+#import "TestViewController.h"
+
+#import "CommentsViewController.h"
+#import "CommentViewController.h"
+#import "DetailViewController.h"
+#import "CartViewController.h"
+#import "BookViewController.h"
+#import "BKTableViewExpandableHeightDelegate.h"
+#import "AuthorViewController.h"
+#endif

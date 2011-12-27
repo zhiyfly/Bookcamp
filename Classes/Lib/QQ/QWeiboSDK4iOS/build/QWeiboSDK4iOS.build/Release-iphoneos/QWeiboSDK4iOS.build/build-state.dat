@@ -1,0 +1,578 @@
+TQWeiboSDK4iOS
+v7
+r0
+t342274559.517758
+cCheck dependencies
+cProcessPCH /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch.gch QWeiboSDK4iOS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch.gch QWeiboSDK4iOS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSString+QEncoding.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSData+QBase64.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QOauth.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QOauthKey.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSURL+QAdditions.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QMutableURLRequest.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QSyncHttp.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QWeiboRequest.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QAsyncHttp.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/libQWeiboSDK4iOS.a normal armv6
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSString+QEncoding.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSData+QBase64.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QOauth.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QOauthKey.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSURL+QAdditions.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QMutableURLRequest.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QSyncHttp.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QWeiboRequest.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QAsyncHttp.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/libQWeiboSDK4iOS.a normal armv7
+cCreateUniversalBinary /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/libQWeiboSDK4iOS.a normal "armv6 armv7"
+
+N/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004E3509C40000000000000132
+t1312098756
+s306
+
+N/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004CB3E44C0000000000000DE2
+t1286857804
+s3554
+
+N/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.h
+c000000004D37D47B00000000000000B9
+t1295504507
+s185
+i<Foundation/Foundation.h>
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m
+c000000004D37D47B000000000000067D
+t1295504507
+s1661
+i"NSData+QBase64.h"
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.h
+c000000004D37D47B00000000000000DF
+t1295504507
+s223
+i<Foundation/Foundation.h>
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m
+c000000004D37D47B00000000000003CF
+t1295504507
+s975
+i"NSString+QEncoding.h"
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.h
+c000000004D37D47B0000000000000107
+t1295504507
+s263
+i<Foundation/Foundation.h>
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m
+c000000004D37D47B0000000000000711
+t1295504507
+s1809
+i"NSURL+QAdditions.h"
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.h
+c000000004D37D47B00000000000002D6
+t1295504507
+s726
+i<Foundation/Foundation.h>
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m
+c000000004D37D47B0000000000000432
+t1295504507
+s1074
+i"QAsyncHttp.h"
+i"QMutableURLRequest.h"
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.h
+c000000004D37D47B0000000000000260
+t1295504507
+s608
+i<Foundation/Foundation.h>
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m
+c000000004D37D47B0000000000000D03
+t1295504507
+s3331
+i"QMutableURLRequest.h"
+i"NSURL+QAdditions.h"
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.h
+c000000004D37D47B00000000000005AD
+t1295504507
+s1453
+i<Foundation/Foundation.h>
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m
+c000000004D37D5620000000000001BB2
+t1295504738
+s7090
+i<stdlib.h>
+i<CommonCrypto/CommonHMAC.h>
+i"QOauth.h"
+i"NSString+QEncoding.h"
+i"NSData+QBase64.h"
+i"NSURL+QAdditions.h"
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.h
+c000000004D37D47B0000000000000254
+t1295504507
+s596
+i<Foundation/Foundation.h>
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m
+c000000004D37D47B0000000000000141
+t1295504507
+s321
+i"QOauthKey.h"
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.h
+c000000004D37D47B0000000000000247
+t1295504507
+s583
+i<Foundation/Foundation.h>
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m
+c000000004D37D47B00000000000005BF
+t1295504507
+s1471
+i"QSyncHttp.h"
+i"QMutableURLRequest.h"
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.h
+c000000004D37D47B0000000000000634
+t1295504507
+s1588
+i<Foundation/Foundation.h>
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m
+c000000004D37D5850000000000000B5B
+t1295504773
+s2907
+i"QWeiboRequest.h"
+i"QOauth.h"
+i"QOauthKey.h"
+i"QSyncHttp.h"
+i"QAsyncHttp.h"
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboSDK4iOS_Prefix.pch
+c000000004D2D52DC00000000000000BC
+t1294815964
+s188
+i<Foundation/Foundation.h>
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSData+QBase64.o
+t1320581605
+s9504
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSString+QEncoding.o
+t1320581605
+s8600
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSURL+QAdditions.o
+t1320581605
+s12720
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QAsyncHttp.o
+t1320581605
+s9588
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QMutableURLRequest.o
+t1320581605
+s16748
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QOauth.o
+t1320581605
+s21564
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QOauthKey.o
+t1320581605
+s11632
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QSyncHttp.o
+t1320581605
+s11920
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QWeiboRequest.o
+t1320581605
+s12548
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QWeiboSDK4iOS.LinkFileList
+c000000004EB679E400000000000005C9
+t1320581604
+s1481
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/libQWeiboSDK4iOS.a
+t1320581605
+s116576
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSData+QBase64.o
+t1320581605
+s9496
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSString+QEncoding.o
+t1320581605
+s8604
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSURL+QAdditions.o
+t1320581605
+s12716
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QAsyncHttp.o
+t1320581605
+s9584
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QMutableURLRequest.o
+t1320581605
+s16764
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QOauth.o
+t1320581605
+s21268
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QOauthKey.o
+t1320581605
+s11660
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QSyncHttp.o
+t1320581605
+s11932
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QWeiboRequest.o
+t1320581605
+s12520
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QWeiboSDK4iOS.LinkFileList
+c000000004EB679E400000000000005C9
+t1320581604
+s1481
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/libQWeiboSDK4iOS.a
+t1320581605
+s116304
+
+N/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/libQWeiboSDK4iOS.a
+t1320581606
+s232928
+
+N/var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch.gch
+t1320581604
+s6564420
+
+N/var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch.gch
+t1320581605
+s7023172
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies342274559#342274559#0(0"0(0#1#0"4425153968#0"0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSData+QBase64.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342274405.270568
+e342274405.394847
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSData+QBase64.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m342274405#342274405#0(0"0(0#0#81"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m4570402448#2168"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv6 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSData+QBase64.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSString+QEncoding.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342274405.252354
+e342274405.393477
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSString+QEncoding.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m342274405#342274405#0(0"0(0#0#85"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m4570402448#2176"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv6 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSString+QEncoding.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSURL+QAdditions.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342274405.393586
+e342274405.501976
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSURL+QAdditions.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m342274405#342274405#0(0"0(0#0#83"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m4570402448#2172"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv6 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/NSURL+QAdditions.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QAsyncHttp.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342274405.489715
+e342274405.578987
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QAsyncHttp.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m342274405#342274405#0(0"0(0#0#77"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m4570402448#2160"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv6 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QAsyncHttp.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QMutableURLRequest.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342274405.395140
+e342274405.582741
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QMutableURLRequest.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m342274405#342274405#0(0"0(0#0#85"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m4570402448#2176"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv6 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QMutableURLRequest.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QOauth.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342274405.271359
+e342274405.488482
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QOauth.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m342274405#342274405#0(0"0(0#0#73"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m4570402448#2152"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv6 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QOauth.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QOauthKey.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342274405.272329
+e342274405.395047
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QOauthKey.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m342274405#342274405#0(0"0(0#0#76"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m4570402448#2158"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv6 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QOauthKey.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QSyncHttp.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342274405.396107
+e342274405.488736
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QSyncHttp.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m342274405#342274405#0(0"0(0#0#76"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m4570402448#2158"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv6 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QSyncHttp.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QWeiboRequest.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342274405.488830
+e342274405.581347
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QWeiboRequest.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m342274405#342274405#0(0"0(0#0#80"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m4570402448#2166"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv6 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QWeiboRequest.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSData+QBase64.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342274405.554268
+e342274405.636876
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSData+QBase64.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m342274405#342274405#0(0"0(0#0#81"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m4570402448#2168"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv7 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSData+QBase64.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSData+QBase64.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSString+QEncoding.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342274405.502091
+e342274405.554157
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSString+QEncoding.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m342274405#342274405#0(0"0(0#0#85"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m4570402448#2176"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv7 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSString+QEncoding.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSString+QEncoding.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSURL+QAdditions.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342274405.596055
+e342274405.695088
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSURL+QAdditions.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m342274405#342274405#0(0"0(0#0#83"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m4570402448#2172"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv7 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/NSURL+QAdditions.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/NSURL+QAdditions.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QAsyncHttp.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342274405.734847
+e342274405.786467
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QAsyncHttp.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m342274405#342274405#0(0"0(0#0#77"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m4570402448#2160"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv7 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QAsyncHttp.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QAsyncHttp.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QMutableURLRequest.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342274405.636991
+e342274405.774302
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QMutableURLRequest.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m342274405#342274405#0(0"0(0#0#85"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m4570402448#2176"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv7 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QMutableURLRequest.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QMutableURLRequest.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QOauth.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342274405.579091
+e342274405.774960
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QOauth.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m342274405#342274405#0(0"0(0#0#73"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m4570402448#2152"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv7 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauth.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QOauth.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QOauthKey.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342274405.581444
+e342274405.646636
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QOauthKey.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m342274405#342274405#0(0"0(0#0#76"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m4570402448#2158"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv7 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QOauthKey.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QOauthKey.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QSyncHttp.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342274405.646856
+e342274405.734613
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QSyncHttp.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m342274405#342274405#0(0"0(0#0#76"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m4570402448#2158"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv7 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QSyncHttp.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QSyncHttp.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QWeiboRequest.o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342274405.695190
+e342274405.802653
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QWeiboRequest.o
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m342274405#342274405#0(0"0(0#0#80"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m4570402448#2166"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv7 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboRequest.m -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QWeiboRequest.o0#
+
+CCreateUniversalBinary /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/libQWeiboSDK4iOS.a normal "armv6 armv7"
+s342274405.848084
+e342274406.216857
+r1
+xCreateUniversalBinary
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/libQWeiboSDK4iOS.a
+xnormal
+xarmv6 armv7
+lSLF07#2@84"CreateUniversalBinary build/Release-iphoneos/libQWeiboSDK4iOS.a normal "armv6 armv7"342274405#342274406#0(0"0(0#0#76"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/armv6 armv74570402448#737"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/libQWeiboSDK4iOS.a /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/libQWeiboSDK4iOS.a -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/libQWeiboSDK4iOS.a0#
+
+CLibtool /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/libQWeiboSDK4iOS.a normal armv6
+s342274405.582837
+e342274405.595826
+r1
+xLibtool
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/libQWeiboSDK4iOS.a
+xnormal
+xarmv6
+o/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF07#2@123"Libtool build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/libQWeiboSDK4iOS.a normal armv6342274405#342274405#0(135"/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"4570402448#913"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -filelist /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/QWeiboSDK4iOS.LinkFileList -ObjC -framework Foundation -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv6/libQWeiboSDK4iOS.a0#
+
+CLibtool /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/libQWeiboSDK4iOS.a normal armv7
+s342274405.802753
+e342274405.847973
+r1
+xLibtool
+x/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/libQWeiboSDK4iOS.a
+xnormal
+xarmv7
+o/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF07#2@123"Libtool build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/libQWeiboSDK4iOS.a normal armv7342274405#342274405#0(135"/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"4570402448#913"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -filelist /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/QWeiboSDK4iOS.LinkFileList -ObjC -framework Foundation -o /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/Objects-normal/armv7/libQWeiboSDK4iOS.a0#
+
+CProcessPCH /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch.gch QWeiboSDK4iOS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s342274404.287387
+e342274405.072318
+r1
+xProcessPCH
+x/var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch.gch
+xQWeiboSDK4iOS_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile QWeiboSDK4iOS_Prefix.pch342274404#342274405#0(0"0(0#0#89"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboSDK4iOS_Prefix.pch4570402448#2012"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv6 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboSDK4iOS_Prefix.pch -o /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dqojmqegilwgoubfnwdquuephzqo/QWeiboSDK4iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch.gch QWeiboSDK4iOS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s342274404.288410
+e342274405.252235
+r1
+xProcessPCH
+x/var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch.gch
+xQWeiboSDK4iOS_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile QWeiboSDK4iOS_Prefix.pch342274404#342274405#0(0"0(0#0#89"/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboSDK4iOS_Prefix.pch4570402448#2012"    cd /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer-3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer-3.2.5/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/Release-iphoneos/include -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources/armv7 -I/Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Release-iphoneos/QWeiboSDK4iOS.build/DerivedSources -c /Users/linwaiwai/Documents/bookcamp/Classes/Lib/QQ/QWeiboSDK4iOS/QWeiboSDK4iOS_Prefix.pch -o /var/folders/b3/p32d9z0s3ld544n3wjd3nj_40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-fcwlqacwiantrtggpaorjujzdpmx/QWeiboSDK4iOS_Prefix.pch.gch0#
+

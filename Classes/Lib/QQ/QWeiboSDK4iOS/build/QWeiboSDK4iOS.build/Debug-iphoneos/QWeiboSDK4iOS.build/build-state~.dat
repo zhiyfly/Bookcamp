@@ -1,0 +1,378 @@
+TQWeiboSDK4iOS
+v7
+r0
+t316615935.649345
+cCheck dependencies
+cProcessPCH /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch.gch QWeiboSDK4iOS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSString+QEncoding.o /Users/wengsampan/Documents/QWeiboSDK4iOS/NSString+QEncoding.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSData+QBase64.o /Users/wengsampan/Documents/QWeiboSDK4iOS/NSData+QBase64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QOauth.o /Users/wengsampan/Documents/QWeiboSDK4iOS/QOauth.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QOauthKey.o /Users/wengsampan/Documents/QWeiboSDK4iOS/QOauthKey.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSURL+QAdditions.o /Users/wengsampan/Documents/QWeiboSDK4iOS/NSURL+QAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QMutableURLRequest.o /Users/wengsampan/Documents/QWeiboSDK4iOS/QMutableURLRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QSyncHttp.o /Users/wengsampan/Documents/QWeiboSDK4iOS/QSyncHttp.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QWeiboRequest.o /Users/wengsampan/Documents/QWeiboSDK4iOS/QWeiboRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/libQWeiboSDK4iOS.a normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004A11E8210000000000000DE2
+t1242687521
+s3554
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/NSData+QBase64.h
+c000000004D2D588400000000000000F4
+t1294817412
+s244
+i<Foundation/Foundation.h>
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/NSData+QBase64.m
+c000000004D2D597000000000000006B8
+t1294817648
+s1720
+i"NSData+QBase64.h"
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/NSString+Encoding.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/NSString+Encoding.m
+c000000004D2D55E800000000000000D9
+t1294816744
+s217
+i"NSString+Encoding.h"
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/NSString+QEncoding.h
+c000000004D2D567B000000000000011A
+t1294816891
+s282
+i<Foundation/Foundation.h>
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/NSString+QEncoding.m
+c000000004D2D59E6000000000000040A
+t1294817766
+s1034
+i"NSString+QEncoding.h"
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/NSURL+QAdditions.h
+c000000004D2EA3560000000000000142
+t1294902102
+s322
+i<Foundation/Foundation.h>
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/NSURL+QAdditions.m
+c000000004D2EA34F000000000000074C
+t1294902095
+s1868
+i"NSURL+QAdditions.h"
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QHttpBase.h
+c000000004D2E9B61000000000000020B
+t1294900065
+s523
+i<Foundation/Foundation.h>
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QHttpBase.m
+c000000004D2E9B930000000000000258
+t1294900115
+s600
+i"QHttpBase.h"
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QMutableURLRequest.h
+c000000004D2E9E880000000000000214
+t1294900872
+s532
+i<Foundation/Foundation.h>
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QMutableURLRequest.m
+c000000004D2EA51B00000000000003E4
+t1294902555
+s996
+i"QMutableURLRequest.h"
+i"NSURL+QAdditions.h"
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QOauth.h
+c000000004D2E6A4D0000000000000272
+t1294887501
+s626
+i<Foundation/Foundation.h>
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QOauth.m
+c000000004D2EF56B0000000000001AA6
+t1294923115
+s6822
+i<stdlib.h>
+i<CommonCrypto/CommonHMAC.h>
+i"QOauth.h"
+i"NSString+QEncoding.h"
+i"NSData+QBase64.h"
+i"NSURL+QAdditions.h"
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QOauthKey.h
+c000000004D2E69EE000000000000028F
+t1294887406
+s655
+i<Foundation/Foundation.h>
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QOauthKey.m
+c000000004D2E69F4000000000000017C
+t1294887412
+s380
+i"QOauthKey.h"
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QSyncHttp.h
+c000000004D2E9EDE00000000000001E1
+t1294900958
+s481
+i<Foundation/Foundation.h>
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QSyncHttp.m
+c000000004D2EAB4400000000000003B5
+t1294904132
+s949
+i"QSyncHttp.h"
+i"QMutableURLRequest.h"
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QWeiboRequest.h
+c000000004D2EAC7700000000000001CB
+t1294904439
+s459
+i<Foundation/Foundation.h>
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QWeiboRequest.m
+c000000004D2EAF7C00000000000005B6
+t1294905212
+s1462
+i"QWeiboRequest.h"
+i"QOauth.h"
+i"QOauthKey.h"
+i"QSyncHttp.h"
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/QWeiboSDK4iOS_Prefix.pch
+c000000004D2D52DC00000000000000BC
+t1294815964
+s188
+i<Foundation/Foundation.h>
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/libQWeiboSDK4iOS.a
+t1294923133
+s95584
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSData+QBase64.o
+t1294905228
+s9748
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSString+Encoding.o
+t2
+s0
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSString+QEncoding.o
+t1294905228
+s8268
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSURL+QAdditions.o
+t1294905228
+s12580
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QHttpBase.o
+t1294900116
+s7248
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QMutableURLRequest.o
+t1294905228
+s9760
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QOauth.o
+t1294923133
+s21672
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QOauthKey.o
+t1294905228
+s12408
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QSyncHttp.o
+t1294905228
+s10208
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QWeiboRequest.o
+t1294905228
+s9376
+
+N/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QWeiboSDK4iOS.LinkFileList
+c000000004D2EAF8C000000000000048F
+t1294905228
+s1167
+
+N/var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch.gch
+t1294905228
+s10505840
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316615935#316615935#0(0"0(0#1#0"8667823424#0"0#
+
+CCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSData+QBase64.o /Users/wengsampan/Documents/QWeiboSDK4iOS/NSData+QBase64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316598028.703827
+e316598028.762752
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSData+QBase64.o
+x/Users/wengsampan/Documents/QWeiboSDK4iOS/NSData+QBase64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/wengsampan/Documents/QWeiboSDK4iOS/NSData+QBase64.m316598028#316598028#0(0"0(0#0#58"/Users/wengsampan/Documents/QWeiboSDK4iOS/NSData+QBase64.m8666050496#2086"    cd /Users/wengsampan/Documents/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/include -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources/i386 -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch -c /Users/wengsampan/Documents/QWeiboSDK4iOS/NSData+QBase64.m -o /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSData+QBase64.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSString+Encoding.o /Users/wengsampan/Documents/QWeiboSDK4iOS/NSString+Encoding.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSString+QEncoding.o /Users/wengsampan/Documents/QWeiboSDK4iOS/NSString+QEncoding.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316598028.702906
+e316598028.752379
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSString+QEncoding.o
+x/Users/wengsampan/Documents/QWeiboSDK4iOS/NSString+QEncoding.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/wengsampan/Documents/QWeiboSDK4iOS/NSString+QEncoding.m316598028#316598028#0(0"0(0#0#62"/Users/wengsampan/Documents/QWeiboSDK4iOS/NSString+QEncoding.m8678066688#2094"    cd /Users/wengsampan/Documents/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/include -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources/i386 -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch -c /Users/wengsampan/Documents/QWeiboSDK4iOS/NSString+QEncoding.m -o /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSString+QEncoding.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSURL+QAdditions.o /Users/wengsampan/Documents/QWeiboSDK4iOS/NSURL+QAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316598028.752524
+e316598028.832722
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSURL+QAdditions.o
+x/Users/wengsampan/Documents/QWeiboSDK4iOS/NSURL+QAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/wengsampan/Documents/QWeiboSDK4iOS/NSURL+QAdditions.m316598028#316598028#0(0"0(0#0#60"/Users/wengsampan/Documents/QWeiboSDK4iOS/NSURL+QAdditions.m8647264352#2090"    cd /Users/wengsampan/Documents/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/include -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources/i386 -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch -c /Users/wengsampan/Documents/QWeiboSDK4iOS/NSURL+QAdditions.m -o /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/NSURL+QAdditions.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QHttpBase.o /Users/wengsampan/Documents/QWeiboSDK4iOS/QHttpBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316592916.241897
+e316592916.306539
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QHttpBase.o
+x/Users/wengsampan/Documents/QWeiboSDK4iOS/QHttpBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/wengsampan/Documents/QWeiboSDK4iOS/QHttpBase.m316592916#316592916#0(0"0(0#0#53"/Users/wengsampan/Documents/QWeiboSDK4iOS/QHttpBase.m8611798688#2076"    cd /Users/wengsampan/Documents/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/include -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources/i386 -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch -c /Users/wengsampan/Documents/QWeiboSDK4iOS/QHttpBase.m -o /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QHttpBase.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QMutableURLRequest.o /Users/wengsampan/Documents/QWeiboSDK4iOS/QMutableURLRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316598028.761412
+e316598028.824792
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QMutableURLRequest.o
+x/Users/wengsampan/Documents/QWeiboSDK4iOS/QMutableURLRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/wengsampan/Documents/QWeiboSDK4iOS/QMutableURLRequest.m316598028#316598028#0(0"0(0#0#62"/Users/wengsampan/Documents/QWeiboSDK4iOS/QMutableURLRequest.m8646687680#2094"    cd /Users/wengsampan/Documents/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/include -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources/i386 -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch -c /Users/wengsampan/Documents/QWeiboSDK4iOS/QMutableURLRequest.m -o /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QMutableURLRequest.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QOauth.o /Users/wengsampan/Documents/QWeiboSDK4iOS/QOauth.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316615933.368001
+e316615933.471870
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QOauth.o
+x/Users/wengsampan/Documents/QWeiboSDK4iOS/QOauth.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/wengsampan/Documents/QWeiboSDK4iOS/QOauth.m316615933#316615933#0(0"0(0#0#50"/Users/wengsampan/Documents/QWeiboSDK4iOS/QOauth.m8677343392#2070"    cd /Users/wengsampan/Documents/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/include -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources/i386 -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch -c /Users/wengsampan/Documents/QWeiboSDK4iOS/QOauth.m -o /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QOauth.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QOauthKey.o /Users/wengsampan/Documents/QWeiboSDK4iOS/QOauthKey.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316598028.705603
+e316598028.761264
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QOauthKey.o
+x/Users/wengsampan/Documents/QWeiboSDK4iOS/QOauthKey.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/wengsampan/Documents/QWeiboSDK4iOS/QOauthKey.m316598028#316598028#0(0"0(0#0#53"/Users/wengsampan/Documents/QWeiboSDK4iOS/QOauthKey.m8649190144#2076"    cd /Users/wengsampan/Documents/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/include -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources/i386 -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch -c /Users/wengsampan/Documents/QWeiboSDK4iOS/QOauthKey.m -o /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QOauthKey.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QSyncHttp.o /Users/wengsampan/Documents/QWeiboSDK4iOS/QSyncHttp.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316598028.762865
+e316598028.823591
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QSyncHttp.o
+x/Users/wengsampan/Documents/QWeiboSDK4iOS/QSyncHttp.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/wengsampan/Documents/QWeiboSDK4iOS/QSyncHttp.m316598028#316598028#0(0"0(0#0#53"/Users/wengsampan/Documents/QWeiboSDK4iOS/QSyncHttp.m8644991584#2076"    cd /Users/wengsampan/Documents/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/include -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources/i386 -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch -c /Users/wengsampan/Documents/QWeiboSDK4iOS/QSyncHttp.m -o /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QSyncHttp.o0#
+
+CCompileC build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QWeiboRequest.o /Users/wengsampan/Documents/QWeiboSDK4iOS/QWeiboRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316598028.802292
+e316598028.850151
+r1
+xCompileC
+xbuild/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QWeiboRequest.o
+x/Users/wengsampan/Documents/QWeiboSDK4iOS/QWeiboRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/wengsampan/Documents/QWeiboSDK4iOS/QWeiboRequest.m316598028#316598028#0(0"0(0#0#57"/Users/wengsampan/Documents/QWeiboSDK4iOS/QWeiboRequest.m8627778912#2084"    cd /Users/wengsampan/Documents/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/include -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources/i386 -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources -include /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch -c /Users/wengsampan/Documents/QWeiboSDK4iOS/QWeiboRequest.m -o /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QWeiboRequest.o0#
+
+CLibtool /Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/libQWeiboSDK4iOS.a normal i386
+s316615933.471946
+e316615933.495245
+r1
+xLibtool
+x/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/libQWeiboSDK4iOS.a
+xnormal
+xi386
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF07#2@66"Libtool build/Debug-iphonesimulator/libQWeiboSDK4iOS.a normal i386316615933#316615933#0(136"/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"8682541600#776"    cd /Users/wengsampan/Documents/QWeiboSDK4iOS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator -filelist /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/Objects-normal/i386/QWeiboSDK4iOS.LinkFileList -ObjC -framework Foundation -o /Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/libQWeiboSDK4iOS.a0#
+
+CProcessPCH /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch.gch QWeiboSDK4iOS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s316598028.357187
+e316598028.702784
+r1
+xProcessPCH
+x/var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch.gch
+xQWeiboSDK4iOS_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile QWeiboSDK4iOS_Prefix.pch316598028#316598028#0(0"0(0#0#66"/Users/wengsampan/Documents/QWeiboSDK4iOS/QWeiboSDK4iOS_Prefix.pch8667316960#1949"    cd /Users/wengsampan/Documents/QWeiboSDK4iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-generated-files.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-own-target-headers.hmap -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-all-target-headers.hmap -iquote /Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/QWeiboSDK4iOS-project-headers.hmap -F/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/Debug-iphonesimulator/include -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources/i386 -I/Users/wengsampan/Documents/QWeiboSDK4iOS/build/QWeiboSDK4iOS.build/Debug-iphonesimulator/QWeiboSDK4iOS.build/DerivedSources -c /Users/wengsampan/Documents/QWeiboSDK4iOS/QWeiboSDK4iOS_Prefix.pch -o /var/folders/9p/9pl5bqf7Hg0ns85oCH+xTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QWeiboSDK4iOS_Prefix-dnxwvbvsataatmfrnurbeskdpekw/QWeiboSDK4iOS_Prefix.pch.gch0#
+

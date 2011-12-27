@@ -1,0 +1,13 @@
+#!/bin/bash
+count=0
+for file in *
+do
+if test -f $file
+then
+let count+=$(wc -l $file|grep -o "[0-9]\+")
+echo $file
+echo $count
+fi
+done
+echo $count
+exit
