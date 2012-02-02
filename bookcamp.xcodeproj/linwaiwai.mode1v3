@@ -216,11 +216,11 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>A87A28B514DB0B08004900A4</string>
+						<string>A87A28D614DB0D5E004900A4</string>
 						<key>history</key>
 						<array>
 							<string>A8599CF414DAE28F00767CCD</string>
-							<string>A87A288C14DB0908004900A4</string>
+							<string>A87A28B514DB0B08004900A4</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -345,13 +345,16 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>222</integer>
+									<integer>141</integer>
+									<integer>139</integer>
+									<integer>92</integer>
+									<integer>29</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 3525}, {381, 610}}</string>
+							<string>{{0, 2210}, {381, 610}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -388,7 +391,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Config.h</string>
+								<string>BookHeadView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -396,11 +399,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Config.h</string>
+										<string>BookHeadView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A87A28B214DB0B08004900A4</string>
+										<string>A87A28D514DB0D5E004900A4</string>
 										<key>history</key>
 										<array>
 											<string>A8954DBE132E73BC00BED643</string>
@@ -631,7 +634,6 @@
 											<string>A8599E6314DB077900767CCD</string>
 											<string>A8599E6414DB077900767CCD</string>
 											<string>A8599E6514DB077900767CCD</string>
-											<string>A8599E6614DB077900767CCD</string>
 											<string>A8599E6714DB077900767CCD</string>
 											<string>A8599E6814DB077900767CCD</string>
 											<string>A8599E6914DB077900767CCD</string>
@@ -691,7 +693,8 @@
 											<string>A8599EA014DB077900767CCD</string>
 											<string>A87A28AF14DB0B08004900A4</string>
 											<string>A87A28B014DB0B08004900A4</string>
-											<string>A87A28B114DB0B08004900A4</string>
+											<string>A87A28D314DB0D5E004900A4</string>
+											<string>A87A28D414DB0D5E004900A4</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -703,14 +706,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {835, 435}}</string>
+								<string>{{0, 0}, {835, 429}}</string>
 								<key>RubberWindowFrame</key>
 								<string>42 109 1238 669 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>435pt</string>
+							<string>429pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -723,14 +726,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 440}, {835, 188}}</string>
+								<string>{{0, 434}, {835, 194}}</string>
 								<key>RubberWindowFrame</key>
 								<string>42 109 1238 669 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>188pt</string>
+							<string>194pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -749,9 +752,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>A87A28B314DB0B08004900A4</string>
+				<string>A87A28CF14DB0C79004900A4</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>A87A28B414DB0B08004900A4</string>
+				<string>A87A28D014DB0C79004900A4</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -891,7 +894,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>A833F88612C99189001316B0</string>
 		<string>A8599CE614DAE07A00767CCD</string>
 		<string>/Users/linwaiwai/github/Bookcamp/bookcamp.xcodeproj</string>
@@ -974,7 +976,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>A833F88612C99189001316B0</string>
-				<string>A87A28AB14DB0AF4004900A4</string>
+				<string>A87A28D214DB0C79004900A4</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
