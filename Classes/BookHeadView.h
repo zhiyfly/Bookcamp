@@ -16,9 +16,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
+
 #import <UIKit/UIKit.h>
 #import "BookHeadItem.h"
-
+#import "UMSNSService.h"
 
 
 
@@ -31,15 +32,14 @@
 	UILabel *_ratingLabel;
 	RatingView *_ratingView;
 	
-	OAuthEngine	*_engine;
-	WeiboClient *_weiboClient;
+
 	MBProgressHUD *_HUD;
+    
+    UMShareToType shareToType;
 
 }
 
 @property (nonatomic, retain, readonly) 	MBProgressHUD *HUD;
-@property (nonatomic, retain, readonly) OAuthEngine *engine;
-@property (nonatomic, retain, readonly) WeiboClient *weiboClient;
 
 @property (nonatomic, retain) RatingView *ratingView;
 @property (nonatomic, retain) BookObject *item;
@@ -48,4 +48,6 @@
 @property (nonatomic, retain) TTThumbView *bookThumb;
 @property (nonatomic, retain) TTStyledTextLabel *info;
 
+
+-(void)compose;
 @end

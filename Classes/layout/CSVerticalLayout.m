@@ -16,7 +16,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-
 #import "CSVerticalLayout.h"
 
 
@@ -73,7 +72,7 @@
 		return NO;
 	}
 	if (y  + subview.frame.size.height > maxHeight && x + _spacing + subview.frame.size.width < maxWidth ) {
-		//break
+		//换行 
 		y = _padding.top;
 		if (lastView) {
 			x = CGRectGetMaxX(lastView.frame)+ _spacing;

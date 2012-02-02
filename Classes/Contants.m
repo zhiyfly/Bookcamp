@@ -16,6 +16,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
+
 #import "Contants.h"
 
 #ifdef BCDebug 
@@ -63,8 +64,6 @@ const int RatingViewWidth = 105;
 const int RatingViewHeight = 20;
 
 
-
-
 const int CommentAuthorInfoBarHeight = 60;
 
 const int	BKContentSmallMargin = 6;
@@ -86,6 +85,8 @@ typedef enum {
 NSString * const FavoritedObjectContextDidSaveNotification = @"FavoritedObjectContextDidSaveNotification";
 NSString * const HistoriedObjectContextDidSaveNotification = @"HistoriedObjectContextDidSaveNotification";
 
+
+const NSString * connectedSiteStr[] = {@"人人网",@"新浪微博",@"腾讯微博"}; 
 
 
 

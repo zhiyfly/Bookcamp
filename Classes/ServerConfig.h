@@ -17,12 +17,14 @@
 // limitations under the License.
 //
 
-#error fill the douban appkey
-#define DoubanApiKeys [NSArray arrayWithObjects:@""
+
+#error fill the mutiple ApiKeys and your SecretKey of Douban
+
+#define DoubanApiKeys [NSArray arrayWithObjects:@"", \
 								 nil]
 
 
-#define DoubanSecretKey @"f04de9469368b5c3"
+#define DoubanSecretKey @""
 
 #define ApiServerBase @"http://api.douban.com/"
 #define BookServerBase @"http://book.douban.com/"

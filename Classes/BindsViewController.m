@@ -16,20 +16,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
+
 #import "BindsViewController.h"
-const NSString * connectedSiteStr[] = {@"新浪微博"}; 
+
 
 @implementation BindsViewController
 
-@synthesize engine = _engine;
-
-#define siteBindStatusUnKnown -1
- 
-#define bindTipStr(_HASBINDED)  BCLocalizedString(_HASBINDED? @"has bound":@"unbound,click to bound",_HASBINDED? @"has bound":@"unbound,click to bound")
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)dealloc {
-	TT_RELEASE_SAFELY(_engine);
+
     [super dealloc];
 }
 
@@ -46,14 +42,26 @@ const NSString * connectedSiteStr[] = {@"新浪微博"};
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 -(void)viewWillAppear:(BOOL)animated{
 	[super viewWillAppear:animated];
+
+	inReBinding = NO;
+	[self loadData];
+}
+
+-(void)loadData{
 	NSUInteger i;
 	for (i=0; i < SnsCount; i++) {
+        
 		siteBindStatus[i] = siteBindStatusUnKnown;
-
-		if ( [[NSUserDefaults standardUserDefaults] objectForKey: @"authData"]) {
-			siteBindStatus[0] = 1;
+		
+        NSError *error = nil;
+		NSString *uid =[UMSNSService  getUid:UMENG_KEY andForPlatform:(UMShareToType)i error:error];
+		NSMutableDictionary *authData = [NSMutableDictionary dictionaryWithDictionary: [[NSUserDefaults standardUserDefaults] objectForKey: @"authData"]];
+		NSDictionary *bindInfo = [authData objectForKey:(NSString*)connectedSiteStr[i]];
+        
+		if ( bindInfo ) {
+			siteBindStatus[i] = 1;
 		} else {
-			siteBindStatus[0] = 0;
+			siteBindStatus[i] = 0;
 		}
 		
 	}
@@ -68,8 +76,6 @@ const NSString * connectedSiteStr[] = {@"新浪微博"};
 		
 	}
 	self.dataSource = dataSource;	
-	inReBinding = NO;
-	
 }
 
 
@@ -82,79 +88,121 @@ const NSString * connectedSiteStr[] = {@"新浪微博"};
 //    return UITableViewCellSelectionStyleBlue;
 //}
 
--(OAuthEngine*)engine{
-	if (!_engine){
-		_engine = [[OAuthEngine alloc] initOAuthWithDelegate: self];
-		_engine.consumerKey = kOAuthConsumerKey;
-		_engine.consumerSecret = kOAuthConsumerSecret;
-		[OAuthEngine setCurrentOAuthEngine:_engine];
-	}
-	return _engine;
+
+- (void)oauthDidFinish:(NSString *)uid andAccessToken:(NSDictionary *)accessToken andPlatformType:(UMShareToType)platfrom{
+    NSError *error;
+    
+    NSString *currentUid = [UMSNSService getUid:UMENG_KEY andForPlatform:(UMShareToType)platfrom error:nil];
+    
+    
+	BookViewController *bookViewController = [TTNavigator navigator].visibleViewController ;
+    shareToType = platfrom;
+    if (currentUid) {
+        
+         //sync the info
+		NSMutableDictionary *authData = [NSMutableDictionary dictionaryWithDictionary: [[NSUserDefaults standardUserDefaults] objectForKey: @"authData"]];
+
+		if (!authData) {
+			authData  = [NSMutableDictionary dictionary];
+		}
+      
+        NSDictionary  *bindInfo =  [NSDictionary dictionaryWithObject:[NSNumber numberWithInt:HasBound] forKey:@"BindStatus"];        
+        [authData setObject:bindInfo forKey:(NSString*)connectedSiteStr[shareToType]];
+        [[NSUserDefaults standardUserDefaults] setValue:authData forKey:@"authData"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        [[Factory sharedInstance] triggerWarning:(NSString*)BCLocalizedString(@"binding successfull", @"binding successfull") ];
+        [self loadData];
+        
+    } 
 }
 
+
+ 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
-	NSUserDefaults	*defaults = [NSUserDefaults standardUserDefaults];
+
 	BindsViewController *currentViewController = [TTNavigator navigator].visibleViewController ;	
 	UIViewController *controller ;
+    NSMutableDictionary *authData = [NSMutableDictionary dictionaryWithDictionary: [[NSUserDefaults standardUserDefaults] objectForKey: @"authData"]];
+    if (!authData) {
+        authData  = [NSMutableDictionary dictionary];
+    }
+    
+    NSDictionary *bindInfo = [authData objectForKey:(NSString*)connectedSiteStr[shareToType]];
 	switch (buttonIndex) {
 		//解除绑定
 		case 0:
-
-			[defaults removeObjectForKey: @"authData"];
-			[defaults synchronize];
-			break;
+            
+            if ( bindInfo && ![bindInfo isKindOfClass:[NSNull class]]) {
+                [authData removeObjectForKey:connectedSiteStr[(UMShareToType)shareToType]];
+                [[NSUserDefaults standardUserDefaults] setValue:authData forKey:@"authData"];
+                [[NSUserDefaults standardUserDefaults] synchronize];
+				
+				[UMSNSService writeOffAccounts:(UMShareToType)shareToType];
+				[self loadData];
+            } else {
+                return;
+            }
+            
+            break;
 		//重新绑定
 		case 1:
+            //go to oauth
+            
+            [UMSNSService setDataSendDelegate:self];
+            [UMSNSService setOauthDelegate:self];
+            switch (shareToType) {
+                case UMShareToTypeRenr:
+                    [UMSNSService oauthRenr:currentViewController andAppkey:UMENG_KEY];
+                    
+                    break;
+                case UMShareToTypeSina:
+                    [UMSNSService oauthSina:currentViewController andAppkey:UMENG_KEY];  
+                    
+                    break;
+                case UMShareToTypeTenc:
+                    [UMSNSService oauthTenc:currentViewController andAppkey:UMENG_KEY];   
+            }
+            
+             
 			inReBinding = YES;
-			controller = [OAuthController controllerToEnterCredentialsWithEngine: self.engine delegate: self];
-			if (controller) {	
-				[currentViewController presentModalViewController: controller animated: YES];
-				return;
-			}
-			break;
+            
+			
+            break;
 		//取消
 		case 2:
 		default:
 			break;
 	}
-	[self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:NO];
+    [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:NO];
 }
 
-
-//=============================================================================================================================
-#pragma mark OAuthEngineDelegate
-#pragma mark save the user info 
-
-- (void) storeCachedOAuthData: (NSString *) data forUsername: (NSString *) username {
-	NSUserDefaults			*defaults = [NSUserDefaults standardUserDefaults];
-	
-	[defaults setObject: data forKey: @"authData"];
-	[defaults synchronize];
-}
-
-- (NSString *) cachedOAuthDataForUsername: (NSString *) username {
-	if (inReBinding) {
-		return nil;
-	}
-	return [[NSUserDefaults standardUserDefaults] objectForKey: @"authData"];
-}
-
-- (void)removeCachedOAuthDataForUsername:(NSString *) username{
-	NSUserDefaults			*defaults = [NSUserDefaults standardUserDefaults];
-	
-	[defaults removeObjectForKey: @"authData"];
-	[defaults synchronize];
-}
-
+ 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)didSelectObject:(id)object atIndexPath:(NSIndexPath*)indexPath {
 	
 	//绑定设置
+    shareToType  = indexPath.row;
 	if (siteBindStatus[indexPath.row] != siteBindStatusUnKnown) {
 		//go straight to bindSettingView
 		if (siteBindStatus[indexPath.row] == 0) {
-			UIViewController *controller = [OAuthController controllerToEnterCredentialsWithEngine: self.engine delegate: self];
-			[self.navigationController presentModalViewController:controller animated:YES];
+			BindsViewController *currentViewController = [TTNavigator navigator].visibleViewController ;	
+			[UMSNSService setDataSendDelegate:self];
+            [UMSNSService setOauthDelegate:self];
+            switch (shareToType) {
+                case UMShareToTypeRenr:
+                    [UMSNSService oauthRenr:currentViewController andAppkey:UMENG_KEY];
+                    
+                    break;
+                case UMShareToTypeSina:
+                    [UMSNSService oauthSina:currentViewController andAppkey:UMENG_KEY];  
+                    
+                    break;
+                case UMShareToTypeTenc:
+                    [UMSNSService oauthTenc:currentViewController andAppkey:UMENG_KEY];   
+            }
+            
+			
+			inReBinding = YES;
 			return;
 		}
 		UIActionSheet *	actionSheet = [[[UIActionSheet  alloc] initWithTitle:@"账号绑定"

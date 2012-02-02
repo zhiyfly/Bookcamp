@@ -16,7 +16,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-
 #import "GlobalStyleSheet.h"
 #import "Three20Style/UIColorAdditions.h"
 #import "Three20UI/UIViewAdditions.h"
@@ -53,9 +52,6 @@
 
 
 
-
-
-
 -(TTStyle*)bookSelfStyle{
 	return
 	[TTImageStyle styleWithImageURL:@"bundle://bookSelf.png" defaultImage:nil
@@ -78,7 +74,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (TTStyle*)segment:(UIControlState)state {
-	//选中状态	
+	//chosen	
 	CGFloat gap = 62;
 	if (state == UIControlStateSelected) {
 		return
@@ -237,7 +233,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (TTStyle*)tab:(UIControlState)state iconStr:(NSString*)iconStr {
-	//选中状态	
+	//chosen
 	CGFloat fontSize = 15;
 	CGFloat gap = 15;
 	
@@ -390,7 +386,7 @@
 }
 
 
--(TTStyle*) finishButtonStyle:(UIControlState)state{
+-(TTStyle*) finishButtonStyle:(UIControlState)state {
 	//选中状态
 	if (state == UIControlStateSelected) {
 		UIColor* border = [TTSTYLEVAR(tabBarTintColor) multiplyHue:0 saturation:0 value:0.7];
@@ -425,7 +421,7 @@
 	}	
 }
 
--(TTStyle*) cancelButtonStyle:(UIControlState)state{
+-(TTStyle*) cancelButtonStyle:(UIControlState)state {
 	//选中状态
 	if (state == UIControlStateSelected) {
 		UIColor* border = [TTSTYLEVAR(tabBarTintColor) multiplyHue:0 saturation:0 value:0.7];
@@ -628,12 +624,12 @@
 	return [self toolbarButton:state withImgURL:imageURL];
 }
 
--(TTStyle*)toolbarParityButton:(UIControlState)state{
+-(TTStyle*)toolbarParityButton:(UIControlState)state {
 	NSString *imageURL = @"bundle://price.png";
 	return [self toolbarButton:state withImgURL:imageURL];
 }
 
--(TTStyle*)toolbarAuthorButton:(UIControlState)state{
+-(TTStyle*)toolbarAuthorButton:(UIControlState)state {
 	NSString *imageURL = @"bundle://writer.png";
 	//选中状态	
 	CGFloat fontSize = 15;
@@ -1059,7 +1055,7 @@
 	
 }
 
--(TTStyle*) favoriteTableCellStyle{
+-(TTStyle*) favoriteTableCellStyle {
 	return [TTFourBorderStyle styleWithBottom:[UIColor whiteColor] width:1 next:
 			[TTInsetStyle styleWithInset:UIEdgeInsetsMake(0, -1, 0, -1) next:
 			 [TTFourBorderStyle styleWithBottom:RGBCOLOR(187,187,187) width:1 next:
@@ -1277,7 +1273,7 @@
 						   next: nil]];
 }
 
--(TTStyle*)bookItemStyle{
+-(TTStyle*)bookItemStyle {
 	return 
 	[TTBoxStyle styleWithMargin:UIEdgeInsetsMake(0, 0, BKContentSmallMargin, 0) next:
 	 [TTTextStyle styleWithFont: [UIFont systemFontOfSize:14]
@@ -1385,12 +1381,12 @@
 
 
 
--(UIImage*)defalutBookCover{
+-(UIImage*)defalutBookCover {
 	u_int32_t i =  arc4random() % 8;
 	return [UIImage imageNamed:[NSString stringWithFormat:@"%d.png",i]];
 }
 
--(TTStyle*) progressHUDStyle{
+-(TTStyle*) progressHUDStyle {
 	return 
 	[TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:5] next:
 	 [TTFourBorderStyle styleWithTop:RGBCOLOR(250,250,250) right:RGBCOLOR(250,250,250) bottom:RGBCOLOR(250,250,250)
@@ -1399,7 +1395,7 @@
 	   ]]];
 }
 
--(TTStyle*)composeViewStyle{
+-(TTStyle*)composeViewStyle {
 	return 
 	[TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:6] next:
 	 [TTFourBorderStyle styleWithTop:RGBCOLOR(250,250,250) right:RGBCOLOR(250,250,250) bottom:RGBCOLOR(250,250,250)
@@ -1413,7 +1409,7 @@
 }
 
 
--(TTStyle*) closeButtonStyle:(UIControlState)state{
+-(TTStyle*) closeButtonStyle:(UIControlState)state {
 	
 	//选中状态
 	if (state == UIControlStateSelected) {
@@ -1429,7 +1425,7 @@
 	
 }
 
--(TTStyle*)submitButtonStyle:(UIControlState)state{
+-(TTStyle*)submitButtonStyle:(UIControlState)state {
 	//选中状态
 	if (state == UIControlStateSelected) {
 		UIColor* border = [TTSTYLEVAR(tabBarTintColor) multiplyHue:0 saturation:0 value:0.7];
@@ -1469,7 +1465,7 @@
 
 
 
--(TTStyle*)sharebookTitleStyle{
+-(TTStyle*)sharebookTitleStyle {
 	return [TTTextStyle styleWithFont:[UIFont systemFontOfSize:16] color:RGBCOLOR(33,33,33)
 					  minimumFontSize:0 
 						  shadowColor:nil 

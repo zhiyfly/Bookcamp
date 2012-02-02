@@ -16,6 +16,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
+
 #import "CommentViewController.h"
 #import "ScreenCapture.h"
 #import "UIImage+Resize.h"
@@ -36,7 +37,7 @@
 
 - (void)adView:(GADBannerView *)bannerView
 didFailToReceiveAdWithError:(GADRequestError *)error {
-	BCNSLog(@"adView:didFailToReceiveAdWithError:%@", [error localizedDescription]);
+	TTDERROR(@"adView:didFailToReceiveAdWithError:%@", [error localizedDescription]);
 }
 
 - (void)adViewDidReceiveAd:(GADBannerView *)bannerView {
@@ -131,14 +132,7 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
 		commentContent = [commentContent stringByReplacingOccurrencesOfString:@"\n\r\n\r" withString:@"\n\r"];
 	}
 	
-	
-//	while (commentContent && [commentContent rangeOfString:@"　　"].location != NSNotFound) {
-//		commentContent = [commentContent stringByReplacingOccurrencesOfString:@"　　" withString:@"　"];
-//	}
-//	while (commentContent && [commentContent rangeOfString:@"  "].location != NSNotFound) {
-//		commentContent = [commentContent stringByReplacingOccurrencesOfString:@"  " withString:@" "];
-//	}
-//	
+ 
 	commentContent = [commentContent stringByReplacingOccurrencesOfString:@"\n" withString:@"<br/><br/>"];
 	commentContent = [commentContent stringByReplacingOccurrencesOfString:@"\n\r" withString:@"<br/><br/>"];
 

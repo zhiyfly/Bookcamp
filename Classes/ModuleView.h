@@ -29,4 +29,7 @@
 @property (nonatomic, retain, readonly ) NavigatorBar *navigatorBar;
 @property (nonatomic, assign) BOOL navigatorBarHidden;
 @property (nonatomic, retain) TTView * contentView;
+
+-(void)setNavigatorBarHidden:(BOOL)hidden;
+
 @end

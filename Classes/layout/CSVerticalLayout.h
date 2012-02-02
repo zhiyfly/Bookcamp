@@ -31,4 +31,7 @@
 @property (nonatomic) CGFloat spacing;
 @property (nonatomic) CGSize indentSize;
 
+- (CGSize)layoutSubviews:(NSArray*)subviews forView:(UIView*)view;
+- (BOOL)addSubview:(UIView*)subview toView:(UIView*)view ;
+
 @end

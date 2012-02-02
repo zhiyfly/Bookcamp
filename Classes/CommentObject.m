@@ -32,6 +32,18 @@
 @synthesize cid = _cid;
 @synthesize unvotes = _unvotes;
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+-(void)dealloc{
+	TT_RELEASE_SAFELY(_cid);
+	TT_RELEASE_SAFELY(_title);
+	TT_RELEASE_SAFELY(_content);
+	TT_RELEASE_SAFELY(_rating);
+	TT_RELEASE_SAFELY(_updated);
+	TT_RELEASE_SAFELY(_votes);
+	[super dealloc];
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
 -(id)initWithCommentID:(NSNumber*)cid{
 	if (self = [super init]) {
 		_commentStatus = Initing;
@@ -40,6 +52,7 @@
 	return self;
 }
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
 -(void)sync{
 	NSString* url =  ApiServerDistination(review/%@,self.cid) ;
 	TTURLRequest *request = [TTURLRequest
@@ -57,7 +70,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)request:(TTURLRequest*)request didFailLoadWithError:(NSError*)error {
 	self.commentStatus = Fail;
-	BCNSLog(@"%@",error);
+	TTDERROR(@"%@",error);
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

@@ -143,10 +143,10 @@
 			NSError *error;
 			if (![self.managedObjectContext save:&error]) {
 				// Update to handle the error appropriately.
-				BCNSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+				TTDERROR(@"Unresolved error %@, %@", error, [error userInfo]);
 				exit(-1);  // Fail
 			}else {
-				BCNSLog(@"done");
+				TTDINFO(@"done");
 			}
 		}
 	}

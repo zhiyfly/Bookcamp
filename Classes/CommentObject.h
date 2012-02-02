@@ -31,7 +31,7 @@
 	ObjectStatusFlag _commentStatus;
 	
 }
--(void)sync;
+
 @property (nonatomic, retain) NSNumber *unvotes;
 @property (nonatomic, retain) NSNumber *cid;
 @property (nonatomic, retain) People *author;
@@ -41,5 +41,8 @@
 @property (nonatomic, retain) NSDate *updated;
 @property (nonatomic, retain) NSNumber *votes;
 @property (nonatomic) ObjectStatusFlag commentStatus;
+
+-(id)initWithCommentID:(NSNumber*)cid;
+-(void)sync;
 
 @end

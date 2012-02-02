@@ -26,4 +26,7 @@
 
 + (Factory*)sharedInstance;
 
+-(void *)triggerWarning:(NSString*)text;
+
+-(NSString*) makeDoubanApiKey ;
 @end

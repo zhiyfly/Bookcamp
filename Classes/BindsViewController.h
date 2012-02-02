@@ -22,20 +22,27 @@
 
 #import "BXTableSubtitleItem.h"
 
-#define connectedSite [NSArray arrayWithObjects:@"sina",nil]
+#import "UMSNSService.h"
 
-#define SnsCount 1
-extern  const NSString * connectedSiteStr[];
+#define connectedSite [NSArray arrayWithObjects:@"renren",@"sina",@"tencent",nil]
 
+#define SnsCount 3
+
+#define siteBindStatusUnKnown -1
+
+#define bindTipStr(_HASBINDED)  BCLocalizedString(_HASBINDED? @"has bound":@"unbound,click to bound",_HASBINDED? @"has bound":@"unbound,click to bound")
 
 @interface BindsViewController : BaseTableViewController <UIActionSheetDelegate>{
 	NSInteger siteBindStatus[SnsCount];
 	BOOL inReBinding;
+    
+    UMShareToType shareToType;
 
-	OAuthEngine *_engine;
+
+
 }
 
-@property (nonatomic, retain)OAuthEngine *engine;
+
 
 
 @end

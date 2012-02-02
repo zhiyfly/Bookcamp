@@ -58,6 +58,8 @@
 
 
 -(id)initWithBookID:(NSNumber*)bookID;
+-(id)initWithISBN13:(NSNumber*)isbnNum;
+-(id)initWithISBN10:(NSNumber *)isbnNum;
 -(void)sync;
 
 @end

@@ -46,8 +46,7 @@ static const int DefaultLinkButtonHeight = BKDefaultLinkButtonHeight;
 @synthesize ratingLabel = _ratingLabel;
 @synthesize ratingView = _ratingView;
 
-@synthesize engine = _engine;
-@synthesize weiboClient  = _weiboClient;
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -56,8 +55,8 @@ static const int DefaultLinkButtonHeight = BKDefaultLinkButtonHeight;
 	TT_RELEASE_SAFELY(_bookThumb);
 	TT_RELEASE_SAFELY(_info);
 	TT_RELEASE_SAFELY(_ratingView);
-	TT_RELEASE_SAFELY(_engine);
-	TT_RELEASE_SAFELY(_weiboClient);
+
+
 	TT_RELEASE_SAFELY (_HUD);
     [super dealloc];
 }
@@ -151,71 +150,87 @@ static const int DefaultLinkButtonHeight = BKDefaultLinkButtonHeight;
 	}
 	return _bookThumb;
 }
-
-- (void)postStatusDidSucceed:(WeiboClient*)sender obj:(NSObject*)obj;
+ 
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-	Draft *sentDraft = nil;
-	if (sender.context && [sender.context isKindOfClass:[Draft class]]) {
-		sentDraft = (Draft *)sender.context;
-		[sentDraft autorelease];
-	}
-	
-    if (sender.hasError) {
-
-		[[Factory sharedInstance] triggerWarning:sender.errorDetail];
-        return;
-    }
+    shareToType = buttonIndex;
+    NSString *currentUid = [UMSNSService getUid:UMENG_KEY andForPlatform:(UMShareToType)buttonIndex error:nil];
     
-    NSDictionary *dic = nil;
-    if (obj && [obj isKindOfClass:[NSDictionary class]]) {
-        dic = (NSDictionary*)obj;    
+	BookViewController *bookViewController = (BookViewController*)[TTNavigator navigator].visibleViewController ;
+        
+    
+    NSDictionary *authData = [[NSUserDefaults standardUserDefaults] objectForKey: @"authData"];
+    if (!authData) {
+        authData  = [NSDictionary dictionary];
     }
-	
-    if (dic) {
-        Status* sts = [Status statusWithJsonDictionary:dic];
-		if (sts) {
-			//successful to get response
-			MBProgressHUD *HUD = [[MBProgressHUD alloc] initWithView: [TTNavigator navigator].visibleViewController.navigationController.view];
-				HUD.style = TTSTYLE(progressHUDStyle);
-			// The sample image is based on the work by www.pixelpressicons.com, http://creativecommons.org/licenses/by/2.5/ca/
-			// Make the customViews 37 by 37 pixels for best results (those are the bounds of the build-in progress indicators)
-			HUD.customView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"checkmark.png"]] autorelease];
-			
-			// Set custom view mode
-			HUD.mode = MBProgressHUDModeCustomView;
-			
-			// Add HUD to screen
-			[ [TTNavigator navigator].visibleViewController.navigationController.view addSubview:HUD];
-			
-			// Regisete for HUD callbacks so we can remove it from the window at the right time
-			HUD.delegate =  [[UIApplication sharedApplication] delegate];
-			HUD.minShowTime = 2;
-			HUD.labelText = BCLocalizedString(@"successful to share", @"successful to share");
-			[HUD show:YES];
-			[HUD hide:YES];
-			
-			//delete draft!
-			if (sentDraft) {
+
+    NSDictionary *bindInfo = [authData objectForKey:(NSString*)connectedSiteStr[shareToType]];
+    
+ 
+    
+    if (currentUid && bindInfo && HasBound == (BoundStatus)[[bindInfo objectForKey:@"BindStatus"] intValue] ) {
+        shareToType = (UMShareToType)buttonIndex;
+		[self performSelectorOnMainThread:@selector(compose) withObject:nil waitUntilDone:NO];
+        return;
+    } else {
+        //go to oauth
+        [UMSNSService setDataSendDelegate:self];
+        [UMSNSService setOauthDelegate:self];
+        switch (buttonIndex) {
+            case 0:
+                [UMSNSService oauthRenr:bookViewController andAppkey:UMENG_KEY];
+
+                break;
+            case 1:
+                  [UMSNSService oauthSina:bookViewController andAppkey:UMENG_KEY];  
+  
+                break;
+            case 2:
+                [UMSNSService oauthTenc:bookViewController andAppkey:UMENG_KEY];    
+                break;
+            default:
+                break;
 				
-			}
-		}
+        }
+		
     }
-	
 }
 
-- (void)postNewStatus {
-	BookViewController *bookViewController = [TTNavigator navigator].visibleViewController ;
+- (void)oauthDidFinish:(NSString *)uid andAccessToken:(NSDictionary *)accessToken andPlatformType:(UMShareToType)platfrom{
+    NSError *error;
+    
+    NSString *currentUid = [UMSNSService getUid:UMENG_KEY andForPlatform:platfrom error:nil];
 
-	UIViewController *controller = [OAuthController controllerToEnterCredentialsWithEngine: self.engine delegate: self];
-	if (![bookViewController isKindOfClass:[BookViewController class]]){
-		return;
-	}
-	if (controller) {
-		 
-		[bookViewController presentModalViewController: controller animated: YES];
-		return;
-		
-	}
+    
+	BookViewController *bookViewController = (	BookViewController *)[TTNavigator navigator].visibleViewController ;
+    shareToType = platfrom;
+    NSMutableDictionary *authData = [NSMutableDictionary dictionaryWithDictionary: [[NSUserDefaults standardUserDefaults] objectForKey: @"authData"]];
+    if (!authData) {
+        authData  = [NSMutableDictionary dictionary];
+    }
+    
+    NSDictionary *bindInfo = [authData objectForKey:(NSString*)connectedSiteStr[shareToType]];
+    
+
+    
+    if (currentUid) {
+
+		NSDictionary *bindInfo =  [NSDictionary dictionaryWithObject:[NSNumber numberWithInt:HasBound] forKey:@"BindStatus"];
+        
+
+        [authData setObject:bindInfo forKey:(NSString*)connectedSiteStr[shareToType]];
+        //NSDictionary *another = [NSDictionary dictionaryWithDictionary:authData];
+        [[NSUserDefaults standardUserDefaults] setValue:authData forKey:@"authData"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+
+		[self performSelector:@selector(compose) withObject:nil afterDelay:0.1];
+
+        
+    } 
+}
+
+
+-(void)compose{
 	
 	UIView *navView = [TTNavigator navigator].visibleViewController.navigationController.view;
 	
@@ -223,20 +238,26 @@ static const int DefaultLinkButtonHeight = BKDefaultLinkButtonHeight;
 	[customView addTarget:self action:@selector(closeWindow:) forControlEvents:UIControlEventTouchUpInside];
 	// can't set the opaque directly for it change the subviews's opaque 
 	customView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:.5];
-
+	
 	[customView addSubview: [self makeComposeView:customView.frame]];
-
+	
 	self.HUD.customView =customView;
 	self.HUD.mode = MBProgressHUDModeCustomView;
 	[self.HUD show:YES];
+}
 
-	
+- (void)postNewStatus {
+    
+    UIActionSheet   *sheet = [[UIActionSheet alloc] initWithTitle:@"分享到" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"人人网",@"新浪微博",@"腾讯微博",nil];
+    
+	BookViewController *bookViewController = [TTNavigator navigator].visibleViewController ;
+    [sheet showInView:bookViewController.view];
 	
 }
 
 -(MBProgressHUD*)HUD{
 	if (!_HUD) {
-		UIView *navView = [TTNavigator navigator].visibleViewController.navigationController.view;
+		UIView *navView = (UIView*)[TTNavigator navigator].visibleViewController.navigationController.view;
 		_HUD = [[MBProgressHUD alloc] initWithView:[TTNavigator navigator].visibleViewController.navigationController.view];
 		
 		//HUD.style = TTSTYLE(progressHUDStyle);
@@ -388,11 +409,7 @@ static const int DefaultLinkButtonHeight = BKDefaultLinkButtonHeight;
 -(void)submitStatus{
 	
 	BookViewController *bookViewController = [TTNavigator navigator].visibleViewController ;
-	Draft *draft = [[Draft alloc]initWithType:DraftTypeNewTweet];
-	
-	WeiboClient *client = [[WeiboClient alloc] initWithTarget:self 
-													   engine:[OAuthEngine currentOAuthEngine]
-													   action:@selector(postStatusDidSucceed:obj:)];
+	 
 	int maxLength = 140;
 	UITextView *statusView =  [self.HUD viewWithTag:StatuseTextViewTag];
 	
@@ -401,80 +418,67 @@ static const int DefaultLinkButtonHeight = BKDefaultLinkButtonHeight;
         statusView.text = [statusView.text substringToIndex:maxLength];
     }
 	
-	draft.text = statusView.text;
-	client.context = [draft retain];
-	draft.draftStatus = DraftStatusSending;
 	
 	if([bookViewController isKindOfClass:[BookViewController class]]){
-		draft.attachmentImage = [bookViewController imageFromCurrentBook];
+        NSError *error;
+        
+        NSString *uid = [UMSNSService getUid:UMENG_KEY andForPlatform:shareToType error:error];
+        
+        //save to the posted image to tmp path 
+        UIImage *image = [bookViewController imageFromCurrentBook];
+        
+
+        
+        if ( uid ){
+            UMReturnStatusType type = [UMSNSService update:shareToType andAppkey:UMENG_KEY andUid:uid andStatus:statusView.text andImageToShare:image error:error];
+                 
+            MBProgressHUD *HUD = [[MBProgressHUD alloc] initWithView: [TTNavigator navigator].visibleViewController.navigationController.view];
+            
+            switch (type) {
+                case UMReturnStatusTypeUpdated:
+                    
+                    //successful to get response
+              
+                    HUD.style = TTSTYLE(progressHUDStyle);
+                    // The sample image is based on the work by www.pixelpressicons.com, http://creativecommons.org/licenses/by/2.5/ca/
+                    // Make the customViews 37 by 37 pixels for best results (those are the bounds of the build-in progress indicators)
+                    HUD.customView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"checkmark.png"]] autorelease];
+                    
+                    // Set custom view mode
+                    HUD.mode = MBProgressHUDModeCustomView;
+                    
+                    // Add HUD to screen
+                    [ [TTNavigator navigator].visibleViewController.navigationController.view addSubview:HUD];
+                    
+                    // Regisete for HUD callbacks so we can remove it from the window at the right time
+                    HUD.delegate =  [[UIApplication sharedApplication] delegate];
+                    HUD.minShowTime = 2;
+                    HUD.labelText = BCLocalizedString(@"successful to share", @"successful to share");
+                    [HUD show:YES];
+                    [HUD hide:YES];
+                    
+                    break;
+                case UMReturnStatusTypeRepeated:
+                    break;
+                case UMReturnStatusTypeFileToLarge:
+                    break;
+                case UMReturnStatusTypeExtendSendLimit:
+                    break;
+                case UMReturnStatusTypeUnknownError:
+                default:
+                    break;
+            }
+            [HUD release];
+      
+        }
+        
 	} 
-	[client upload:draft.attachmentData status:draft.text];
+    
 	[self.HUD hide:YES];
 }
 
 
-
--(OAuthEngine*)engine{
-	if (!_engine){
-		_engine = [[OAuthEngine alloc] initOAuthWithDelegate: self];
-		_engine.consumerKey = kOAuthConsumerKey;
-		_engine.consumerSecret = kOAuthConsumerSecret;
-		[OAuthEngine setCurrentOAuthEngine:_engine];
-	}
-	return _engine;
-}
-
-
-//=============================================================================================================================
-#pragma mark OAuthEngineDelegate
-#pragma mark save the user info 
-
-- (void) storeCachedOAuthData: (NSString *) data forUsername: (NSString *) username {
-	NSUserDefaults			*defaults = [NSUserDefaults standardUserDefaults];
-	
-	[defaults setObject: data forKey: @"authData"];
-	[defaults synchronize];
-}
-
-- (NSString *) cachedOAuthDataForUsername: (NSString *) username {
-	return [[NSUserDefaults standardUserDefaults] objectForKey: @"authData"];
-}
-
-- (void)removeCachedOAuthDataForUsername:(NSString *) username{
-	NSUserDefaults			*defaults = [NSUserDefaults standardUserDefaults];
-	
-	[defaults removeObjectForKey: @"authData"];
-	[defaults synchronize];
-}
-
-//=============================================================================================================================
-#pragma mark OAuthSinaWeiboControllerDelegate
-- (void) OAuthController: (OAuthController *) controller authenticatedWithUsername: (NSString *) username {
-	BCNSLog(@"Authenicated for %@", username);
-}
-
-- (void) OAuthControllerFailed: (OAuthController *) controller {
-	BCNSLog(@"Authentication Failed!");
-	//UIViewController *controller = [OAuthController controllerToEnterCredentialsWithEngine: _engine delegate: self];
-  	[[Factory sharedInstance] triggerWarning:BCLocalizedString("Authentication Failed", "Authentication Failed!")];
-	
-	BookViewController *bookViewController = [TTNavigator navigator].visibleViewController ;
-	if (controller) 
-		[bookViewController presentModalViewController: controller animated: YES];
-	
-	
-}
-
-- (void) OAuthControllerCanceled: (OAuthController *) controller {
-	BCNSLog(@"Authentication Canceled.");
-	//UIViewController *controller = [OAuthController controllerToEnterCredentialsWithEngine: _engine delegate: self];
-//	BookViewController *bookViewController = [TTNavigator navigator].visibleViewController ;
-//	if (controller) 
-//		[self presentModalViewController: controller animated: YES];
-	
-}
-
-
+  
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

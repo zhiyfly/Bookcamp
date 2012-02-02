@@ -16,6 +16,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
+
 #import "FavoriteModel.h"
 #import "Book.h"
 
@@ -76,10 +77,6 @@
     return _managedObjectContext;
 }
 
-
-
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more{
 	if (!self.isLoading) {	
@@ -120,7 +117,7 @@
 			}
 		} else {
 			if (error) {
-				BCNSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+				TTDERROR(@"Unresolved error %@, %@", error, [error userInfo]);
 				return;
 			}
 		}

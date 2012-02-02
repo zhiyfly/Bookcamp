@@ -20,25 +20,16 @@
 #import "HistoryDataSource.h"
 #import "Book.h"
 #import "SimpleBookItem.h"
-@implementation HistoryDataSource
+@interface HistoryDataSource (Private)
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-- (void)dealloc {
-	NSNotificationCenter *dnc = [NSNotificationCenter defaultCenter];
-	[dnc removeObserver:self name:HistoriedObjectContextDidSaveNotification object:nil];
-	TT_RELEASE_SAFELY (_historyModel);
-    [super dealloc];
-}
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
--(id)init{
-	if (self = [super init]) {
-		_historyModel = [[HistoryModel alloc] init];
-		NSNotificationCenter *dnc = [NSNotificationCenter defaultCenter];
-		[dnc addObserver:self selector:@selector(bookContextDidSave:) name:HistoriedObjectContextDidSaveNotification object:nil];
-	}
-	return self;
-}
+- (void)bookContextDidSave:(NSNotification*)saveNotification;
+
+
+@end
+
+
+@implementation HistoryDataSource (Private)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)bookContextDidSave:(NSNotification*)saveNotification {
@@ -64,10 +55,10 @@
 			[self.items addObject:[NSMutableArray array]];
 		}
 		[[self.items objectAtIndex:0] insertObject:[SimpleBookItem itemWithText:book.bookName 
-													  caption:[NSString stringWithFormat:@"%@/%@/%@",author,book.publisher, 
-															   dateStr]
-														  URL:[NSString stringWithFormat:@"tt://book/%@",book.oid]]
-						 atIndex:0];
+																		caption:[NSString stringWithFormat:@"%@/%@/%@",author,book.publisher, 
+																				 dateStr]
+																			URL:[NSString stringWithFormat:@"tt://book/%@",book.oid]]
+										   atIndex:0];
 		NSIndexPath *indexPath = [NSIndexPath  indexPathForRow:0 inSection:0];
 		[aModel didInsertObject:book atIndexPath:indexPath];
 	}
@@ -75,6 +66,30 @@
 	
 	[aModel.managedObjectContext mergeChangesFromContextDidSaveNotification:saveNotification];
 	
+}
+
+
+
+@end
+
+@implementation HistoryDataSource
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)dealloc {
+	NSNotificationCenter *dnc = [NSNotificationCenter defaultCenter];
+	[dnc removeObserver:self name:HistoriedObjectContextDidSaveNotification object:nil];
+	TT_RELEASE_SAFELY (_historyModel);
+    [super dealloc];
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+-(id)init{
+	if (self = [super init]) {
+		_historyModel = [[HistoryModel alloc] init];
+		NSNotificationCenter *dnc = [NSNotificationCenter defaultCenter];
+		[dnc addObserver:self selector:@selector(bookContextDidSave:) name:HistoriedObjectContextDidSaveNotification object:nil];
+	}
+	return self;
 }
 
 

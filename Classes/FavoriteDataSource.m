@@ -16,10 +16,54 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-
 #import "FavoriteDataSource.h"
 #import "Book.h"
 #import "SimpleBookItem.h"
+@interface FavoriteDataSource (Private)
+
+- (void)bookContextDidSave:(NSNotification*)saveNotification;
+
+@end
+
+@implementation FavoriteDataSource (Private)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)bookContextDidSave:(NSNotification*)saveNotification {
+	NSArray *insertedObjects = [saveNotification.userInfo objectForKey:NSInsertedObjectsKey];
+	Book *book;
+	FavoriteModel* aModel  = (FavoriteModel*)self.model;
+	NSString *author;
+	for ( book in insertedObjects) {
+		
+		[aModel.books insertObject:book atIndex:0];
+		
+		if ([book.authors count] > 0) {
+			author = [book.authors objectAtIndex:0];
+		} else {
+			author = @"";
+		}
+		
+		NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
+		[dateFormatter setDateFormat:@"yyyy-MM-dd"];
+		[dateFormatter setLocale:[NSLocale currentLocale]];
+		NSString* dateStr = [dateFormatter stringFromDate:book.pubdate];
+		
+		[self.items insertObject:[SimpleBookItem itemWithText:book.bookName 
+													  caption:[NSString stringWithFormat:@"%@%@%@",
+															   author?[NSString stringWithFormat:@"%@/",author]:@"",
+															   book.publisher?[NSString stringWithFormat:@"%@/",book.publisher]:@"",
+															   dateStr?[NSString stringWithFormat:@"%@",dateStr]:@""]
+														  URL:[NSString stringWithFormat:@"tt://book/%@",book.oid]]
+						 atIndex:0];
+		NSIndexPath *indexPath = [NSIndexPath  indexPathForRow:0 inSection:0];
+		[aModel didInsertObject:book atIndexPath:indexPath];
+	}
+	NSManagedObjectContext *context = (NSManagedObjectContext*)saveNotification.object;
+	
+	[aModel.managedObjectContext mergeChangesFromContextDidSaveNotification:saveNotification];
+}
+
+@end
 
 @implementation FavoriteDataSource
 
@@ -41,42 +85,6 @@
 	return self;
 }
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-- (void)bookContextDidSave:(NSNotification*)saveNotification {
-		NSArray *insertedObjects = [saveNotification.userInfo objectForKey:NSInsertedObjectsKey];
-		Book *book;
-		FavoriteModel* aModel  = (FavoriteModel*)self.model;
-		NSString *author;
-		for ( book in insertedObjects) {
-		
-			[aModel.books insertObject:book atIndex:0];
-			
-			if ([book.authors count] > 0) {
-				author = [book.authors objectAtIndex:0];
-			} else {
-				author = @"";
-			}
-			
-			NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
-			[dateFormatter setDateFormat:@"yyyy-MM-dd"];
-			[dateFormatter setLocale:[NSLocale currentLocale]];
-			NSString* dateStr = [dateFormatter stringFromDate:book.pubdate];
-			
-			[self.items insertObject:[SimpleBookItem itemWithText:book.bookName 
-															  caption:[NSString stringWithFormat:@"%@%@%@",
-																	   author?[NSString stringWithFormat:@"%@/",author]:@"",
-																	   book.publisher?[NSString stringWithFormat:@"%@/",book.publisher]:@"",
-																	    dateStr?[NSString stringWithFormat:@"%@",dateStr]:@""]
-																  URL:[NSString stringWithFormat:@"tt://book/%@",book.oid]]
-							 atIndex:0];
-			NSIndexPath *indexPath = [NSIndexPath  indexPathForRow:0 inSection:0];
-			[aModel didInsertObject:book atIndexPath:indexPath];
-		}
-		NSManagedObjectContext *context = (NSManagedObjectContext*)saveNotification.object;
-		
-		[aModel.managedObjectContext mergeChangesFromContextDidSaveNotification:saveNotification];
-	
-}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle 
@@ -132,6 +140,7 @@
 	}
 }
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
 - (UITableViewCell*)tableView:(UITableView *)tableView
 		cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	UITableViewCell *cell = [super tableView:tableView cellForRowAtIndexPath:indexPath];
@@ -145,9 +154,6 @@
 	}
 	return cell;
 }
-
-
-
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (id<TTModel>)model {

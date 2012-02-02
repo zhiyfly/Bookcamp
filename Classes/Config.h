@@ -17,3 +17,12 @@
 // limitations under the License.
 //
 
+//#define BCDebug 1
+#define enableUmeng
+
+#error fill the umeng key
+#define UMENG_KEY @""
+
+#error fill the admob key 
+#define MY_BANNER_UNIT_ID @""
+

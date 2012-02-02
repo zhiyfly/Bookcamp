@@ -16,6 +16,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
+
 #import <Foundation/Foundation.h>
 
 
@@ -36,4 +37,7 @@
 @property (nonatomic, retain) NSArray *rankingNonfictionBooks;
 
 + (ModelLocator*)sharedInstance;
+- (NSPersistentStoreCoordinator *)persistentStoreCoordinator ;
+-(NSString *)applicationDocumentsDirectory ;
+- (NSManagedObjectModel *)managedObjectModel ;
 @end

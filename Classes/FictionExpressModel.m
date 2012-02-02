@@ -91,9 +91,6 @@ static int numLatestBook=0;
     }
 }
 
-
- 
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)requestDidFinishLoad:(TTURLRequest*)request {
 	TTURLDataResponse* response = request.response;
@@ -127,8 +124,6 @@ static int numLatestBook=0;
 #endif
 		}
 	}
-
-	
 
 	[super requestDidFinishLoad:request];
 }

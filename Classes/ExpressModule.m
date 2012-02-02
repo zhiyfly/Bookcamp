@@ -1,15 +1,55 @@
 //
 //  ExpressModule.m
-//  ;
 //
-//  Created by waiwai on 12/19/10.
-//  Copyright 2010 __iwaiwai__. All rights reserved.
+// Created by lin waiwai(jiansihun@foxmail.com) on 1/19/11.
+// Copyright 2011 __waiwai__. All rights reserved.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//    http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
 //
 
 #import "ExpressModule.h"
 #import "CSVerticalLayout.h"
 #import "BCTableViewDelegate.h"
 #import "BookObject.h"
+@interface ExpressModule (Private)
+
+
+- (NSString*)typeToString:(BookType)aType;
+- (void)pageDidChanger:(NSUInteger)pageIndex;
+
+@end
+
+
+@implementation ExpressModule (Private)
+
+
+- (void)pageDidChanger:(NSUInteger)pageIndex {
+	NSInteger index = pageIndex % [self numberOfPages];
+	NSArray *items = [self.data objectForKey:[self typeToString:type]];
+	BookObject *book =  [items objectAtIndex:index];
+	[self.infoView setObject:book];
+}
+
+-(NSString*)typeToString:(BookType)aType{
+	NSArray *objects = [NSArray arrayWithObjects:@"FictionExpress",@"NofictionExpress",@"FictionRanking",@"NofictionRanking",nil];
+	if (aType < [objects count]) {
+		return [objects objectAtIndex:aType];
+	}
+	return nil;
+}
+
+@end
+
 @implementation ExpressModule
 
 @synthesize categorySegmentedBar = _categorySegmentedBar;
@@ -51,22 +91,6 @@
     [super viewDidLoad];
 }
 
--(NSString*)typeToString:(BookType)aType{
-	NSArray *objects = [NSArray arrayWithObjects:@"FictionExpress",@"NofictionExpress",@"FictionRanking",@"NofictionRanking",nil];
-	if (aType < [objects count]) {
-		return [objects objectAtIndex:aType];
-	}
-	return nil;
-}
-
-
-- (void)pageDidChanger:(NSUInteger)pageIndex{
-	NSInteger index = pageIndex % [self numberOfPages];
-	NSArray *items = [self.data objectForKey:[self typeToString:type]];
-	BookObject *book =  [items objectAtIndex:index];
-	[self.infoView setObject:book];
-	
-}
 
 
 
@@ -77,13 +101,13 @@
 	return _data;
 }
 
-
-
 -(void)didLoadModel:(BOOL)firstTime{
 	if ([self.data objectForKey:[self typeToString:type]]) {
 		self.scrollView.delegate = self;
 	}	
 }
+
+
 
 -(void)coverDidSelected:(TTButton*)btn{
 	NSInteger index = (NSInteger)[self.scrollView currentPageIndex] % [self numberOfPages];

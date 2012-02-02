@@ -1,4 +1,5 @@
 //
+//  HistoryModel.h
 //
 // Created by lin waiwai(jiansihun@foxmail.com) on 1/19/11.
 // Copyright 2011 __waiwai__. All rights reserved.

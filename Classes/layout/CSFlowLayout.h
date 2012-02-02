@@ -31,4 +31,6 @@
 @property (nonatomic) CGFloat HSpace;
 @property (nonatomic) CGFloat VSpace;
 
+- (CGSize)layoutSubviews:(NSArray*)subviews forView:(UIView*)view;
+
 @end

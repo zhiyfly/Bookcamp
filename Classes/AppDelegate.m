@@ -16,6 +16,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
+
 #import "AppDelegate.h"
 #import "RootViewController.h"
 #import "BindsViewController.h"
@@ -27,6 +28,7 @@
 
 @synthesize reader;
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 -(ReaderViewController *)reader{
 	if (!reader) {
 		reader = [ReaderViewController new];
@@ -59,7 +61,7 @@
 	return reader;
 }
 
-
+/////////////////////////////////////////////////////////////////////////////////////////////////
 #ifdef enableUmeng
 - (void)applicationWillResignActive:(UIApplication *)application {
 	[MobClick appTerminated];
@@ -68,10 +70,12 @@
 	[MobClick appLaunched];
 } 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)applicationWillTerminate:(UIApplication *)application{
 		[MobClick appTerminated];
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 //- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
 
 	
@@ -79,10 +83,9 @@
 	//}
 //}
 
-
+/////////////////////////////////////////////////////////////////////////////////////////////////
 - (NSString *)appKey{
-#error fill the umeng app key;
-	return @"";
+	return UMENG_KEY ;
 } 
 #endif
 
@@ -207,9 +210,7 @@
 	
 }
 
-
-
-
+/////////////////////////////////////////////////////////////////////////////////////////////////
 -(ReaderViewController*)scan:(NSInteger) src{
 	self.reader.sourceType = src;
 	if(src == UIImagePickerControllerSourceTypeCamera) {
@@ -237,6 +238,7 @@
 
 // ReaderOverlayDelegate
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 - (void) readerOverlayDidDismiss
 {
     [overlay willDisappear];
@@ -247,6 +249,7 @@
 	[[controller tabBar] setSelectedTabIndex:1];
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 - (void) readerOverlayDidRequestHelp
 {
     [overlay willDisappear];
@@ -255,6 +258,7 @@
 }
 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 -(void)cleanup:(BOOL) force{
 	if(force || !reader.parentViewController) {
         [overlay release];
@@ -322,12 +326,14 @@
 }
 */
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)hudWasHidden:(MBProgressHUD *)hud {
     // Remove HUD from screen when the HUD was hidded
 	[hud removeFromSuperview];
 	TT_RELEASE_SAFELY(hud);
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 -(void)dealloc{
 #ifndef NO_AD
 	splashInterstitial_.delegate = nil;
@@ -337,6 +343,7 @@
 	[super dealloc];
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)interstitial:(GADInterstitial *)interstitial
 didFailToReceiveAdWithError:(GADRequestError *)error {
 	BCNSLog(@"InterstitialExampleAppDelegate."
@@ -344,6 +351,7 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
 		  [error localizedDescription]);
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)interstitialDidReceiveAd:(GADInterstitial *)interstitial {
 	BCNSLog(@"InterstitialExampleAppDelegate."
 		  "interstitialDidReceiveAd:");

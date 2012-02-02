@@ -25,4 +25,6 @@
 }
 @property (nonatomic, retain) TTView *wrapper;
 @property (nonatomic, retain) BookObject *book;
+
+-(id)initWithBook:(id)oid;
 @end

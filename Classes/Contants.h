@@ -16,15 +16,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
+#import "Config.h"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
 #pragma mark Test
-//#define BCDebug 1
-#define enableUmeng
 
-#error fill the admob id
-#define MY_BANNER_UNIT_ID @""
 
 #ifdef BCDebug
 #define BCNSLog(...) NSLog(__VA_ARGS__)
@@ -50,6 +47,7 @@ CGRect BKNavigatorBarFrameTwo();
 CGRect BKNavigatorBarFrameThree();
 CGRect BKScreenBounds ();
 CGRect BKScreenBoundsWithoutBar();
+
 #define TabBarHeight 40
 #define upcaseFirstLetter(__STR) [__STR stringByReplacingCharactersInRange:NSMakeRange(0,1) withString:[[__STR substringToIndex:1] uppercaseString]]
 
@@ -140,10 +138,7 @@ extern NSString * const HistoriedObjectContextDidSaveNotification ;
 
 #define ModuleSuffix @"Module"
 
-
-
 #define BCContentSmallMargin 6
-
 
 typedef enum {
 	Initing,
@@ -154,10 +149,11 @@ typedef enum {
 
 #define GoldenRatio 0.618
 
-#define kOAuthConsumerKey				@"1908874965"		//REPLACE ME
-#define kOAuthConsumerSecret			@"565f11da0861333fa3961af2f67c38d0"		//REPLACE ME
+typedef enum{
+    NoBound = 0,
+    HasBound ,
+    NeedReBound,
+} BoundStatus;
 
-
-#define QQAppKey @"801058898"
-#define QQAppSecret @"e9d1fac7cd6391a7e2e8a1997e67be76"
+extern  const NSString * connectedSiteStr[];
 

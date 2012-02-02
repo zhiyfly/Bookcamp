@@ -38,7 +38,7 @@ static ModelLocator *sharedInstance = nil;
     return sharedInstance;
 }
 
--(NSString*) makeDoubanApiKey{
+-(NSString*) makeDoubanApiKey {
 	NSUInteger count = [DoubanApiKeys count];
  	return [DoubanApiKeys objectAtIndex: (NSUInteger)(arc4random() % count)];
 }
@@ -46,8 +46,6 @@ static ModelLocator *sharedInstance = nil;
 -(TTURLRequest*)createRequestWithURL:(NSString*)URL delegate:(id)delegate{
 	
 }
-
-
 
 
 -(void *)triggerWarning:(NSString*)text{
